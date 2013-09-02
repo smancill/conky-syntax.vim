@@ -3,8 +3,7 @@
 Syntax highlighting for conkyrc files used by the
 [Conky system monitor](http://conky.sourceforge.net/)
 
-This is a clone of <http://www.vim.org/scripts/script.php?script_id=1367>,
-packaged to be used as a Vim bundle, and providing filetype detection.
+These are the vim files from the Conky source, bundled to use with vim plugin manager.
 
 ## Install
 
