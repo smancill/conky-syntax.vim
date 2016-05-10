@@ -79,6 +79,8 @@ syn keyword ConkyrcSetting
             \ override_utf8_locale
             \ overwrite_file
             \ own_window
+            \ own_window_argb_value
+            \ own_window_argb_visual
             \ own_window_class
             \ own_window_colour
             \ own_window_hints
