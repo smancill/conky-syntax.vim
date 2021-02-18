@@ -149,7 +149,7 @@ syn match ConkyrcNumber /\S\@<!\d\+\(\.\d\+\)\?\(\S\@!\|}\@=\)/
 syn match ConkyrcColour /\S\@<!#[a-fA-F0-9]\{6\}\(\S\@!\|}\@=\)/
 			\ nextgroup=ConkyrcNumber,ConkyrcColour skipwhite
 
-syn region ConkyrcText start=/^TEXT$/ end=/\%$/ contains=ConkyrcVar,ConkyrcComment
+syn region ConkyrcText start=/^TEXT$\|conky\.text.*\[\[/ end=/\%$/ contains=ConkyrcVar,ConkyrcComment
 
 syn region ConkyrcVar start=/\${/ end=/}/ contained contains=ConkyrcVarStuff
 syn region ConkyrcVar start=/\$\w\@=/ end=/\W\@=\|$/ contained contains=ConkyrcVarName
